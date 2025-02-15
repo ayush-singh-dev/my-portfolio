@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", sans-serif;
+  color: #5f6f81;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+body {
+  /* background-color: #F0F0F6; */
+  background-image: url("./Images/triangles-top-2.svg"),
+    url("./Images/triangles-bottom-2.svg");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  background-color: #f0f0f6;
+}
+
+.main-container {
+  background-color: #fff;
+  border-radius: 30px 0 30px 30px;
+  box-shadow: 0 2.5rem 3.125rem rgba(134, 151, 168, 0.1);
+}
+
+/* media query */
+
+@media screen and (max-width: 621px) {
+  /* .main-container {
+    width: 33rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0 30px 30px;
+    margin-top: 1em;
+  }
+
+  .main-container .profile-container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-container .profile-container .profile {
+    width: 100%;
+  } */
+
+  .nav-bar {
+    display: none;
+    /* height: 100%;
+    width: 100%; */
+    position: absolute;
+    z-index: 1;
+    margin-top: 0;
+  }
+
+  .nav-bar.open {
+    display: block;
+  }
+
+  .manu-bar {
+    display: block;
+  }
+  .nav-bar .ul {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    border-top-left-radius: 20px;
+  }
+
+  /* .nav-bar .navbar-container {
+    height: 100vh;
+  } */
+
+  .nav-bar .ul .SVG {
+    display: none;
+  }
+
+  .profile-container {
+    position: static;
+    width: 100%;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  /* .main-container .content {
+    width: 33rem;
+  } */
+}
