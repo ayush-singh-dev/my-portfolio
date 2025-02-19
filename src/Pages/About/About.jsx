@@ -55,34 +55,32 @@ const About = () => {
             </p>
             <div className="flex flex-wrap -mx-4">
               {/* Card 1 */}
-              <div className="mb-6 px-4 w-full sm:w-1/2">
-                <div className="h-[197px] flex flex-col items-center border-[3px] border-[#F5F8F9] rounded-[30px] text-center p-6">
+              <div className="mb-6 px-4 py-4 w-full sm:w-1/2">
+                <div className=" flex flex-col items-center border-[3px] border-[#F5F8F9] rounded-[30px] text-center p-6">
                   <img className="w-12 mb-4" src={book} alt="book" />
                   <h3 className="mb-2 text-[1.125rem] text-[#44566C] font-semibold">
                     Book-Reader
                   </h3>
-                  <p>
-                    reader who enjoys exploring diverse genres to gain new
-                    perspectives and insights.
-                  </p>
+                  <p>The more that you learn, the more places you'll go</p>
                 </div>
               </div>
 
               {/* Card 2 */}
-              <div className="mb-6 px-4 w-full sm:w-1/2">
-                <div className="h-[197px] flex flex-col items-center border-[3px] border-[#F5F8F9] rounded-[30px] text-center p-6">
+              <div className="mb-6 px-4 py-4 w-full sm:w-1/2">
+                <div className=" flex flex-col items-center border-[3px] border-[#F5F8F9] rounded-[30px] text-center p-6">
                   <img className="w-12 mb-4" src={webdesign} alt="web-design" />
                   <h3 className="mb-2 text-[1.125rem] text-[#44566C] font-semibold">
-                    Web-Development
+                    Web-Design
                   </h3>
                   <p>
-                    High-quality development of sites at the professional level.
+                    The most modern and high-quality design made at a
+                    professional level.
                   </p>
                 </div>
               </div>
               {/* Add other cards as needed */}
-              <div className="mb-6 px-4 w-full sm:w-1/2">
-                <div className="h-[197px] flex flex-col items-center border-[3px] border-[#F5F8F9] rounded-[30px] text-center p-6">
+              <div className="mb-6 px-4 py-4 w-full sm:w-1/2">
+                <div className=" flex flex-col items-center border-[3px] border-[#F5F8F9] rounded-[30px] text-center p-6">
                   <img
                     className="w-12 mb-4"
                     src={photoghaphy}
@@ -92,13 +90,14 @@ const About = () => {
                     Photography
                   </h3>
                   <p>
-                    High-quality development of sites at the professional level.
+                    I make high-quality photos of any category at a professional
+                    level.
                   </p>
                 </div>
               </div>
 
-              <div className="mb-6 px-4 w-full sm:w-1/2">
-                <div className="h-[197px] flex flex-col items-center border-[3px] border-[#F5F8F9] rounded-[30px] text-center p-6">
+              <div className="mb-6 px-4 py-4 w-full sm:w-1/2">
+                <div className=" flex flex-col items-center border-[3px] border-[#F5F8F9] rounded-[30px] text-center p-6">
                   <img
                     className="w-12 mb-4"
                     src={webdev}

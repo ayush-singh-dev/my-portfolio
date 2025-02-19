@@ -19,6 +19,11 @@ const skills = [
     percentage: 70,
     languages: "C++ , C , python, JS ",
   },
+  {
+    name: "tools",
+    percentage: 65,
+    languages: "git , gitub , figma, wordpress, UI/UX ",
+  },
 ];
 
 const softSkills = [
@@ -32,7 +37,7 @@ const MySkill = ({ skill }) => {
   const [hovered, setHovered] = useState(false);
   return (
     <div
-      className="relative w-32 h-32 transition-transform duration-300 transform hover:scale-110"
+      className="skill relative w-32 h-32 transition-transform duration-300 transform hover:scale-110 mb-8"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
@@ -58,7 +63,7 @@ const MySkill = ({ skill }) => {
 };
 const SkillsSection = () => {
   return (
-    <div className="flex gap-6 justify-center p-8 ">
+    <div className="flex gap-6 justify-center p-8 flex-wrap">
       {skills.map((skill, index) => (
         <MySkill key={index} skill={skill} />
       ))}
