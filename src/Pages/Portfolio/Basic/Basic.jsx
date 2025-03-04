@@ -4,6 +4,7 @@ import calculator from "./Basic-pics/calculator.jpg";
 import Todo from "./Basic-pics/Todo.jpg";
 import weather from "./Basic-pics/weather.jpg";
 import red from "./Basic-pics/red.jpg";
+import quiz from "./Basic-pics/quiz.png";
 const Basic = () => {
   const basicProject = [
     {
@@ -17,10 +18,16 @@ const Basic = () => {
       url: "soon..",
     },
     {
+      title: "Quiz WebApp",
+      image: quiz,
+      url: "https://quiz-app-theta-gules-75.vercel.app/",
+    },
+    {
       title: "Weather",
       image: weather,
       url: "https://ayush-singh-dev.github.io/my-weather-app/",
     },
+
     {
       title: "Red Store",
       image: red,

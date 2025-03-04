@@ -22,7 +22,7 @@ const skills = [
   {
     name: "tools",
     percentage: 65,
-    languages: "git , gitub , figma, wordpress, UI/UX ",
+    languages: "git , gitub , figma, wordpress, GMeter, Postman, BlazeMeter",
   },
 ];
 
